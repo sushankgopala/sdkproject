@@ -14,5 +14,9 @@ def main():
         create_project_structure(args.project_name)
     else:
         parser.print_help()
+
+# ✅ Add this block to make it executable via `python -m sdkproject.cli`
 if __name__ == "__main__":
     main()
+
+ 
