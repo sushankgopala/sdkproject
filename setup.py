@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sdkproject',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     install_requires=[
         'openpyxl',
@@ -12,7 +12,7 @@ setup(
             'sdkproject=sdkproject.cli:main',
         ],
     },
-    author='Your Name',
+    author='Trinet',
     description='CLI to create a RAG project folder structure',
     classifiers=[
         "Programming Language :: Python :: 3",
